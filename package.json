@@ -1,0 +1,31 @@
+{
+  "name": "cooper-union-twitter-api",
+  "version": "0.2.0",
+  "description": "A demonstration of how to use the Twitter api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "twitter": "^1.7.0",
+    "express-handlebars": "1.2.1",
+    "favicon": "0.0.2",
+    "morgan": "1.5.1",
+    "reload": "^0.7.0",
+    "request": "2.53.0",
+    "apicache":"^0.8.4"
+  },
+  "engines": {
+    "node": "6.9.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/#!/project/welcome-project"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
